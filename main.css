@@ -1,0 +1,24 @@
+html{
+    font-size: 20px;
+}
+main{
+    width: 80%;
+    background-color: green;
+    color: greenyellow;
+    min-height: 100vh;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    padding: 3em 2em;
+}
+h2{
+    border-bottom: 10px groove;
+    margin-bottom: 1em;
+
+}
+p{
+    font-size: 2rem;
+    border-left: 10px groove;
+    border-right: 10px groove;
+}
