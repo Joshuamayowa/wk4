@@ -11,6 +11,8 @@ h1 spa,  n {
     color: red;
 }
 div{
+    width: 50%;
+    height: 60vh;
     background: linear-gradient(90deg, darkblue 30%, white 30%, white 65%, red 65%);
 }
 
@@ -18,12 +20,68 @@ div.belgium{
     background: linear-gradient(90deg, black 30%, yellow 30%, yellow 65%, red 65%);
     color: white;
     
+    
 }
 div.gambia{
     background: linear-gradient(180deg, red 30%, white 30%, white 35%, blue 35%, blue 60%, white 60%, white 65%, green 65%);
     
 }
 div.Nigeria{
-    background: linear-gradient(180deg, green 30%, white 30%, white 65%, green 65%);
+    background: linear-gradient(90deg, green 30%, white 30%, white 65%, green 65%);
 
+}
+div.Japan{
+    height: 60hv;
+    width: 40%;
+    background-color: white;
+    background-image: radial-gradient(circle, red 30%, white 30%);
+}
+.conic{
+    text-transform: uppercase;
+    font-size: 4em;
+    text-align: center;
+    width: 700px;
+    height: 400px;
+    margin-top: 30px;
+    background: conic-gradient(red 30%, blue 30%, blue 60%, green 60%, green 65%, gold  65%,  gold 75%, white 75%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.image{
+    width: 700px;
+    height: 400px;   
+    background: url(./de\ gea.jpg);
+    background-size: cover;
+    color: transparent;
+    font-size: 4em;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+.online{
+    width: 700px;
+    height: 400px;   
+    background-image: url(https://unsplash.com/photos/vEoMKBdUIzs);
+}
+.ghana{
+    width: 700px;
+    height: 400px;
+    background-image: url(./image/black_star-removebg-preview.png), linear-gradient(180deg, red 35%, yellow 35%, yellow 65%, green 65%);
+    background-position: center;
+    background-size: 140px, 900px;
+    background-repeat: no-repeat;
+}
+.blend{
+    width: 700px;
+    height: 400px;
+    background-size: cover;
+    background-image: url(./save.jpg);
+    background-color: rgb(211, 30, 218);
+
+
+}
+
+.blend:hover{
+    background-blend-mode: luminosity;
+    cursor: pointer
 }
