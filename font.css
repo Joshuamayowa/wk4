@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Lobster&family=Smokum&display=swap');
+
+h1{
+    font-family: 'Smokum', cursive;
+    letter-spacing: 20px;
+
+}
+p{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    line-height: 2;
+    font-weight: 200;
+    max-width: 60%;
+    margin: auto;
+    background-color: aqua;
+    margin-bottom: 30px;
+    padding: 1em;
+    border-radius: 100px 0 100px 0;
+}
+ul{
+font-family: 'Gamja Flower', cursive;;
+
+}
+img{
+    display: block;
+    margin: auto;
+    max-width: 400px;
+    max-height: 400px;
+    border-left: 20px dotted green;
+    border-right: 20px solid purple;
+    border-radius: 50%;
+    padding: 1em;
+
+
+}
